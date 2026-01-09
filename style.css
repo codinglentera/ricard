@@ -1,0 +1,19 @@
+:root{
+  --bg:#000;
+  --wall:#1932a6;
+  --pellet:#ffd966;
+  --power:#ffd966;
+  --pac:#ffd700;
+  --text:#fff;
+  --hud:#111;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+body{background:linear-gradient(180deg,#04041a,var(--bg));color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;}
+.container{width:660px;text-align:center;}
+h1{margin-bottom:8px;}
+.hud{display:flex;justify-content:space-between;align-items:center;background:var(--hud);padding:8px 12px;border-radius:8px;color:#ddd;margin-bottom:8px;}
+#game{display:block;margin:12px auto;border:6px solid #0a0a1a;border-radius:8px;background:#000;image-rendering:pixelated;}
+.controls{margin-top:8px;color:#bbb;}
+.controls button{padding:8px 12px;background:#1a73e8;border:none;border-radius:6px;color:white;cursor:pointer;}
+footer{margin-top:10px;color:#777;font-size:13px;}
